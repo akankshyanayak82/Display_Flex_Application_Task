@@ -1,0 +1,82 @@
+ /* section 1 navbar  */
+body{
+    margin: 0px;
+}
+.mainsection1{
+    /* border: 3px solid navy; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 2px 5px -3px grey;
+    padding: 0px 30px;
+}
+.logodiv img{
+    width: 150px;
+    /* border: 3px solid darkgreen; */
+}
+.menudiv ul li{
+    list-style-type: none;
+    padding: 20px;
+}
+.menudiv ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins', sans-serif; 
+    font-weight: bold;
+}
+.menudiv ul{
+    display: flex;
+    /* border: 3px solid darkgreen; */
+    padding: 0px;
+}
+.iconsdiv i{
+    font-size: 20px;
+    padding: 20px;
+}
+/* .iconsdiv{
+    border: 3px solid darkgreen;
+} */
+/* section 1 navbar  */
+/* section 2 heading */
+.mainsection2{
+    text-align: center;
+}
+.mainsection2 h3{
+    font-family: 'Passions Conflict', cursive;
+    font-size: 50px;
+    text-transform: capitalize;
+    color: #82bb2c;
+    margin-bottom: 10px;
+}
+.mainsection2 h2{
+    padding-bottom: 50px;
+    font-family: 'Poppins', sans-serif; 
+    text-transform: uppercase;
+    font-weight: bold;
+    background-image: url(amino/bg-title.png);
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+    /* background-attachment: fixed; */
+    background-position:bottom center;
+}
+/* section 2 heading */
+/* section 3 products */
+.mainsection3{
+    display: flex;
+    justify-content: space-around;
+}
+.productdiv img{
+    height: 300px;
+    width: 320px;
+}
+.productdiv{
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    font-weight: bold;
+}
+.productdiv h5{
+    color: #82bb2c;
+}
+/* section 3 products */
